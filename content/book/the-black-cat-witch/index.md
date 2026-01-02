@@ -5,4 +5,6 @@ title = 'The Black Cat Witch'
   name = 'cover'
 +++
 
-This is a book.
+# A WORLD OF MAGIC
+
+When witch girl Kanna Sugimori happens upon fallen-from-grace monarch Fuyu Persimmon, who also happens to be a cat, she is swept into an alternate world, a conspiratorial plot, and a friendship that promises to last forever... if they can escape with their lives.
