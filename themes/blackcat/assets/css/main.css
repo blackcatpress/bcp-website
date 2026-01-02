@@ -30,3 +30,9 @@ a {
     color: #00e;
     text-decoration: none;
 }
+
+.booklist .book {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}

@@ -11,7 +11,6 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <img src="/img/bcp-logo.png" alt="BCP Logo" style="max-width: 100%;">
   <nav>
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}

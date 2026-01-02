@@ -2,11 +2,13 @@
 
 {{ $img1x := $img2x.Resize (print (div $img2x.Width 2) "x") }}
 
-<a href="{{ .Permalink }}">
-<img
-    srcset="{{ $img1x.RelPermalink }}, {{ $img2x.RelPermalink }} 2x"
-    src="{{ $img2x.RelPermalink }}"
-    width="{{ (div $img2x.Width 2) }}"
-    alt="{{ $img2x.Title }}"
-/>
+<div class="book">
+    <a href="{{ .Permalink }}">
+    <img
+        srcset="{{ $img1x.RelPermalink }}, {{ $img2x.RelPermalink }} 2x"
+        src="{{ $img2x.RelPermalink }}"
+        width="{{ (div $img2x.Width 2) }}"
+        alt="{{ $img2x.Title }}"
+    />
+</div>
 </a>
