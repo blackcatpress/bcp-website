@@ -1,11 +1,19 @@
 body {
     color: #222;
-    font-family: sans-serif;
+    font-family: "Chaparral Pro", sans-serif;
     line-height: 1.5;
     margin: 1rem;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@font-face {
+    font-family: "Chaparral Pro"; /* 1. Name the font */
+    src: url("/font/ChaparralPro-Regular.woff2") format("woff2"); /* 2. Specify the file path and format */
+    font-weight: normal; /* 3. Define the weight */
+    font-style: normal; /* 4. Define the style */
+    font-display: swap; /* 5. Control font loading behavior */
 }
 
 header {

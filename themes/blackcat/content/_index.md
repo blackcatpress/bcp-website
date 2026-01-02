@@ -4,6 +4,5 @@ date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+Welcome to the official website of Black Cat Press! We are a very, very small (miniscule, some might say) publishing company based in Kirkland, Washington and specialising mainly
+ in children’s fiction, although who knows where the next writing idea could take us… (We’re using the royal “we”. It’s just me.)
