@@ -1,2 +1,4 @@
-public
+public/
 tags
+resources/
+.hugo_build.lock
