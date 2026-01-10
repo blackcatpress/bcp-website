@@ -5,9 +5,11 @@
   {{ $img1x := $img2x.Resize (print (div $img2x.Width 2) "x") }}
 
   <img
+      class="book-hero"
       srcset="{{ $img1x.RelPermalink }}, {{ $img2x.RelPermalink }} 2x"
       src="{{ $img2x.RelPermalink }}"
       width="{{ (div $img2x.Width 2) }}"
+      height="{{ (div $img2x.Height 2) }}"
       alt="{{ $img2x.Title }}"
   />
 
