@@ -1,7 +1,7 @@
 +++
 title = 'Midnight Sun'
 [[resources]]
-  src = 'cover-640.jpg'
+  src = 'cover-1280.png'
   name = 'cover'
 +++
 

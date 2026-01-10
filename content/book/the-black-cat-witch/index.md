@@ -1,7 +1,7 @@
 +++
 title = 'The Black Cat Witch'
 [[resources]]
-  src = 'cover-640.png'
+  src = 'cover-1280.png'
   name = 'cover'
 +++
 

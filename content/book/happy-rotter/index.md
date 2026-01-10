@@ -1,7 +1,7 @@
 +++
 title = "Happy Rotter and the Stilosopher's Phone"
 [[resources]]
-  src = 'cover-640.jpg'
+  src = 'cover-1280.png'
   name = 'cover'
 +++
 
