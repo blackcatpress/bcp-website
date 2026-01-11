@@ -6,6 +6,8 @@ body {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 @font-face {
@@ -31,14 +33,33 @@ a {
     text-decoration: none;
 }
 
+.booklist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 .booklist .book {
-    display: inline-block;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book-hero {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.title {
+    font-size: large;
+    color: #555;
+    font-weight: bold;
+}
+
+.author {
+    font-style: italic;
+    color: #222;
 }

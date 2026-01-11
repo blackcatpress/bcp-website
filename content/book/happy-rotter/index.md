@@ -1,5 +1,10 @@
 +++
 title = "Happy Rotter and the Stilosopher's Phone"
+author = "Name Withheld"
+genre = "Humor"
+audience = "Ages 8 and up"
+size = "Pocket Book"
+pages = "76"
 [[resources]]
   src = 'cover-1280.png'
   name = 'cover'
