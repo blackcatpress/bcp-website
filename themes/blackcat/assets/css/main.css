@@ -53,6 +53,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 100%;
 }
 
 .title {
@@ -64,4 +65,14 @@ a {
 .author {
     font-style: italic;
     color: #222;
+}
+
+.home-link img {
+    max-width: 100%;
+    width: 200px;
+}
+
+.footer-logo {
+    width: 25px;
+    height: 25px;
 }
