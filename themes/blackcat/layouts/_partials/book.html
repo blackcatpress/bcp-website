@@ -12,6 +12,11 @@
         alt="{{ $img2x.Title }}"
     />
     <div class="title">{{ .Params.title }}</div>
-    <div class="author">{{ .Params.author }}</div>
+    <div class="author">
+      {{- range $i, $author := .GetTerms "author" -}}
+        {{- if $i }}, {{ end -}}
+        <a href="{{ $author.RelPermalink }}">{{ $author.LinkTitle }}</a>
+      {{- end -}}
+    </div>
 </div>
 </a>

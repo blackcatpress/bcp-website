@@ -1,6 +1,6 @@
 +++
 title = 'The Black Cat Witch'
-author = 'Samuel McPherson'
+author = ['Samuel McPherson']
 [[resources]]
   src = 'cover-1280.png'
   name = 'cover'

@@ -1,6 +1,6 @@
 +++
 title = 'Midnight Sun'
-author = 'Samuel McPherson'
+author = ['Samuel McPherson']
 [[resources]]
   src = 'cover-1280.png'
   name = 'cover'

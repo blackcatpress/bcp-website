@@ -1,4 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blackcatpress.net/'
 languageCode = 'en-us'
 title = 'Black Cat Press'
 theme = 'blackcat'
+
+[taxonomies]
+  author = 'author'

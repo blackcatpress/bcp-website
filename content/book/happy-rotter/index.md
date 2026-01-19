@@ -1,6 +1,6 @@
 +++
 title = "Happy Rotter and the Stilosopher's Phone"
-author = "Name Withheld"
+author = ["Name Withheld"]
 genre = "Humor"
 audience = "Ages 8 and up"
 size = "Pocket Book"

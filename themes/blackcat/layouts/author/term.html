@@ -1,21 +1,12 @@
-
 {{ define "main" }}
-  {{ $img2x := $.Page.Resources.GetMatch "cover" }}
+  {{ $img2x := $.Page.Resources.GetMatch "headshot" }}
 
   {{ $img1x := $img2x.Resize (print (div $img2x.Width 2) "x") }}
 
   <h1>{{ .Title }}</h1>
-  <h2><i>
-    {{- with .GetTerms "author" -}}
-      {{- range $i, $author := . -}}
-        {{- if $i }}, {{ end -}}
-        <a href="{{ $author.RelPermalink }}">{{ $author.LinkTitle }}</a>
-      {{- end -}}
-    {{- end -}}
-  </i></h2>
 
   <img
-      class="book-hero"
+      class="author"
       srcset="{{ $img1x.RelPermalink }}, {{ $img2x.RelPermalink }} 2x"
       src="{{ $img2x.RelPermalink }}"
       width="{{ (div $img2x.Width 2) }}"
@@ -24,5 +15,13 @@
   />
 
   {{ .Content }}
+
+  <h2>Books</h2>
+  <div class="books">
+    {{- range .Pages -}}
+      {{ partial "book.html" . }}
+    {{- end -}}
+  </div>
+
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
