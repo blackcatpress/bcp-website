@@ -10,10 +10,15 @@ pages = "76"
   name = 'cover'
 +++
 
-*“I couldn’t put it down… because I glued my hands to the book!” –Biased Book Reviews: We Accept Bribes!*
+
+Happy Rotter thinks he is an extraordinary boy – until he enrolls at Warthogs School, learns to mine ivy and does battle in a deadly duel between slang and proper speech.
+
+The Reason: Happy Rotter is a menial laborer!
 
 Eleven-year-old Happy Rotter, named as such because his body is slowly decaying, is decidedly unhappy about attending Warthogs, his new middle school. When he arrives, he meets longtime student Herminey, who couldn’t care less about any of his problems. But there’s a secret at Warthogs, something none of the students can know and get out alive. 
 
 We won’t bother to tell you what it’s really about. You don’t care, do you? ... do you?
 
 This book is a New York Times bestseller, or will be, if those dunderheads who call themselves booksellers will start giving this excellent series a big media push and those dunderheads who call themselves bookworms would pick up copies of this excellent series’ books.
+
+*“I couldn’t put it down… because I glued my hands to the book!” –Biased Book Reviews: We Accept Bribes!*
