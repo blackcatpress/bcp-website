@@ -6,7 +6,7 @@ audience = "Ages 8 and up"
 size = "Pocket Book"
 pages = "76"
 [[resources]]
-  src = 'cover-1280.png'
+  src = 'cover-1280.jpg'
   name = 'cover'
 +++
 
