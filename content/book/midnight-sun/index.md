@@ -4,6 +4,12 @@ author = ['Samuel McPherson']
 [[resources]]
   src = 'cover-1280.png'
   name = 'cover'
+[[resources]]
+  src = 'samuel-mcpherson_midnight-sun.epub'
+  name = 'epub'
+[[resources]]
+  src = 'samuel-mcpherson_midnight-sun.pdf'
+  name = 'pdf'
 +++
 
 # Summer 1991

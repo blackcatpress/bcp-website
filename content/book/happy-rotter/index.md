@@ -8,6 +8,12 @@ pages = "76"
 [[resources]]
   src = 'cover-1280.jpg'
   name = 'cover'
+[[resources]]
+  src = 'samuel-mcpherson_happy-rotter-and-the-stilosophers-phone.epub'
+  name = 'epub'
+[[resources]]
+  src = 'samuel-mcpherson_happy-rotter-and-the-stilosophers-phone.pdf'
+  name = 'pdf'
 +++
 
 

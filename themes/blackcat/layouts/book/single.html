@@ -1,6 +1,8 @@
 
 {{ define "main" }}
   {{ $img2x := $.Page.Resources.GetMatch "cover" }}
+  {{ $epub := $.Page.Resources.GetMatch "*.epub" }}
+  {{ $pdf := $.Page.Resources.GetMatch "*.pdf" }}
 
   {{ $img1x := $img2x.Resize (print (div $img2x.Width 2) "x") }}
 
@@ -24,5 +26,20 @@
   />
 
   {{ .Content }}
+
+  {{ if or $epub $pdf }}
+    <section>
+      <h2>Downloads</h2>
+      <ul>
+        {{ with $epub }}
+          <li><a href="{{ .RelPermalink }}" download>EPUB download (for e-readers)</a></li>
+        {{ end }}
+        {{ with $pdf }}
+          <li><a href="{{ .RelPermalink }}" download>PDF download (read online)</a></li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+
   {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
